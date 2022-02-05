@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/primary_blue</item>
-        <item name="colorPrimaryVariant">@color/darker_blue</item>
+        <item name="colorPrimary">@color/upd_color_secondary</item>
+        <item name="colorPrimaryVariant">@color/upd_color_primary</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
