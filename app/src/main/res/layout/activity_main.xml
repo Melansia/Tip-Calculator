@@ -101,12 +101,11 @@
         tools:text="103.11" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvFooter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:fontFamily="sans-serif-light"
-        android:text="Made with ❤️in Athens"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvTipAmount: TextView
     private lateinit var tvTotalAmount: TextView
     private lateinit var tvTipDescription: TextView
+    private lateinit var tvFooter: TextView
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         tvTipAmount = findViewById(R.id.tvTipAmount)
         tvTotalAmount = findViewById(R.id.tvTotalAmount)
         tvTipDescription = findViewById(R.id.tvTipDescription)
+        tvFooter = findViewById(R.id.tvFooter)
 
         seekBarTip.progress = INITIAL_TIP_PERCENT
 
@@ -64,6 +66,8 @@ class MainActivity : AppCompatActivity() {
             override fun onStopTrackingTouch(p0: SeekBar?) {} // not used method
 
         })
+
+        tvFooter.text = "Made with ❤ for Malwarebytes"
 
         // passing an object which in an implementation of TextWatcher interface
         etBaseAmount.addTextChangedListener(object : TextWatcher {
